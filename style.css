@@ -1,0 +1,246 @@
+
+/* Global Styles */
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+margin: 0;
+padding: 0;
+color: #333;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/* Typing Text Animation */
+#typing-text {
+border-right: 2px solid white;
+white-space: nowrap;
+overflow: hidden;
+animation: typing 4s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
+display: inline-block;
+max-width: 100%;
+}
+
+@keyframes typing {
+0% { width: 0; }
+50% { width: 100%; }
+100% { width: 0; }
+}
+
+@keyframes blink-caret {
+0%, 100% { border-color: transparent; }
+50% { border-color: white; }
+}
+
+@media (min-width: 768px) {
+#about .col-md-6.text-md-right {
+text-align: right;
+}
+}
+/* Navbar Styling */
+.navbar {
+padding: 1rem;
+background-color: #f8f9fa;
+}
+
+.navbar-brand {
+font-size: 1.75rem;
+font-weight: bold;
+color: #0d6efd;
+letter-spacing: 1px;
+}
+
+.nav-link {
+font-size: 1.1rem;
+}
+
+.navbar-toggler-icon {
+background-color: #0d6efd;
+}
+.transform-hover:hover {
+transform: translateY(-10px);
+transition: all 0.3s ease-in-out;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+section.bg-info-subtle {
+background-color: #e0f7fa;
+padding: 5rem 0;
+}
+
+section.bg-info-subtle h1 {
+font-size: 3rem;
+}
+
+section.bg-info-subtle p {
+font-size: 1.25rem;
+color: #555;
+}
+
+section.bg-info-subtle .btn-primary {
+background-color: #0d6efd;
+border: none;
+}
+
+section.bg-info-subtle .btn-primary:hover {
+background-color: #0056b3;
+transition: 0.3s;
+}
+
+/* Card Hover Effect */
+.card:hover {
+transform: translateY(-5px);
+transition: 0.3s ease;
+}
+.card {
+border-radius: 15px;
+transition: all 0.3s ease;
+}
+
+.card-img-top {
+border-radius: 15px 15px 0 0;
+height: 200px;
+object-fit: cover;
+}
+
+/* Section Padding */
+section {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+/* About Section */
+#about {
+padding: 4rem 0;
+background-color: #f1f1f1;
+}
+
+#about h2 {
+font-size: 2rem;
+margin-bottom: 1.5rem;
+}
+
+#about p {
+font-size: 1.125rem;
+color: #666;
+}
+
+#about .row {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+/* Summary Section */
+#summary {
+background-color: #f9f9f9;
+padding: 3rem 0;
+}
+
+#summary h2 {
+font-size: 2rem;
+margin-bottom: 1.5rem;
+}
+
+#summary p {
+font-size: 1.125rem;
+color: #666;
+}
+
+/* Achievement Section */
+#achievement {
+background-color: #fff;
+padding: 3rem 0;
+}
+
+#achievement h2 {
+font-size: 2rem;
+margin-bottom: 1.5rem;
+}
+
+#achievement ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+#achievement ul li {
+font-size: 1.125rem;
+margin: 1rem 0;
+color: #555;
+}
+
+/* Education Section */
+#education {
+background-color: #f9f9f9;
+}
+.btn-outline-primary {
+border-radius: 30px;
+font-weight: 600;
+padding: 10px 30px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+background-color: #0d6efd;
+color: #fff;
+}
+
+.container {
+max-width: 1200px;
+}
+.card:hover {
+transform: scale(1.05);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease;
+}
+
+
+/* Project  */
+
+.section-title {
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+font-size: 2.5rem;
+}
+
+@media (max-width: 767px) {
+.section-title {
+font-size: 1.8rem;
+}
+.btn-lg {
+padding: 0.6rem 1.2rem;
+font-size: 1rem;
+}
+}
+
+.card-img-top {
+object-fit: cover;
+height: auto;
+max-height: 300px;
+}
+
+
+/* Certificate */
+
+.hover-shadow:hover {
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Increase the button padding for mobile devices */
+.btn {
+font-size: 16px;
+}
+
+/* Adjust card body font size for mobile */
+.card-body {
+font-size: 1rem;
+}
