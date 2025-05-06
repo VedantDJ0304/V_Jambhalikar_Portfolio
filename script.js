@@ -28,6 +28,30 @@
         setTimeout(type, isDeleting ? 40 : 100); // Speed of typing and deleting
     }
   }
+
+  const form = document.getElementById('contactForm');
+  const alertBox = document.getElementById('alertSuccess');
+
+  form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: formData,
+      headers: {
+        'Accept': 'application/json'
+      }
+    });
+
+    if (response.ok) {
+      form.reset();
+      alertBox.classList.remove('d-none');
+    } else {
+      alert('Oops! Something went wrong.');
+    }
+  });
   
   document.addEventListener("DOMContentLoaded", () => {
     if (typingTextElement) type();
