@@ -17,12 +17,16 @@ Welcome to my personal portfolio website! This responsive web application is bui
 ### 🧰 Frameworks & Libraries
 - [Bootstrap 5](https://getbootstrap.com/)
 
-### ⚙️ Tools & Platforms
-- **VS Code** – Code editor
-- **GitHub** – Version control and source code management
-- **Formspree** – Contact form integration
-- **Render.com** – Deployment and hosting platform
-- **Chrome Lighthouse** – Performance and accessibility testing
+# ⚙️ Tools & Platforms
+## **VS Code** – Code editor
+
+## **GitHub** – Version control and source code management
+
+## **Formspree** – Contact form integration
+
+## **Render.com** – Deployment and hosting platform
+
+## **Chrome Lighthouse** – Performance and accessibility testing
 
 ---
 
