@@ -3,7 +3,8 @@
 Welcome to my personal portfolio website! This responsive web application is built to showcase my skills, education, projects, and background as a student specializing in Artificial Intelligence and Machine Learning (AI/ML).
 
 ## 📌 Live Demo
-🌍 [View Portfolio Live on Render](https://your-render-link.com) *(Replace with actual link)*
+🌍 [View Portfolio Live on Render]
+(https://vedantjambhalikarportfolio-6ki8.onrender.com/)
 
 ---
 
